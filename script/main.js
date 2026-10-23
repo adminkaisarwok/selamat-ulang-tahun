@@ -106,6 +106,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 // ── Timeline Builder ─────────────────────────────────────────────
 function buildTimeline(rendered) {
   const tl = gsap.timeline();
+  tl.timeScale(CONFIG.speed || 1);
 
   tl.to(".container", { duration: 0.6, visibility: "visible" });
 

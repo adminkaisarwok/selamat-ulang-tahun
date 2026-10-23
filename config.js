@@ -29,8 +29,11 @@
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
   name: "Sayang",                 // Ganti dengan nama/panggilan dia
-  photo: "./img/foto4.jpg",       // Foto bulat di bagian "profile"
+  photo: "./img/profil.jpg",      // Foto bulat di bagian "profile"
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
+
+  // Kecepatan animasi: 1 = normal, makin besar makin cepat
+  speed: 1.4,
 
   // ── Theme Colors ──────────────────────────────────────────────
   // A toggle button lets the viewer switch between dark & light mode.
@@ -91,6 +94,7 @@ const CONFIG = {
       hold: 2.6,                  // Detik tiap foto tampil
       photos: [
         { src: "./img/foto4.jpg", caption: "Senyum yang paling aku suka" },
+        { src: "./img/foto8.jpg", caption: "Anggun pakai songket 👑" },
         { src: "./img/foto2.jpg", caption: "Partner jas biru 💙" },
         { src: "./img/foto3.jpg", caption: "Malam-malam berdua" },
         { src: "./img/foto7.jpg", caption: "Pagi cerah di Ampera" },
